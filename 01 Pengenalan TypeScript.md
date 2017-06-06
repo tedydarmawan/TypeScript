@@ -3,6 +3,7 @@
 - [Tipe Data](#tipe-data)
 - [Class](#class)
 - [Interface](#interface)
+- [Module](#module)
 
 ## Apa itu TypeScript?
 TypeScript merupakan superset dari JavaScript yang berarti pada saat proses compile TypeScript akan dicompile kembali ke JavaScript.
@@ -127,5 +128,14 @@ let mobil: Gerak = {
   tambahKecepatan: function(kecepatan: number){
     //...
   }
+}
+```
+
+## Module
+TypeScript memiliki fitur modular, sehingga kode TypeScript dapat dibuat menjadi beberapa file terpisah. Keyword export digunakan untuk mendukung fitur ini.
+
+``` typescript
+export class ExportClass{
+  // export kelas
 }
 ```
